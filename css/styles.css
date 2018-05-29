@@ -2,6 +2,8 @@
   display: none;
 }
 
+
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -27,6 +29,14 @@
   background-color: green;
 }
 
+.white {
+  background-color: white;
+}
+
+.white-background {
+  background-color: white;
+}
+
 .green-background {
   background-color: green;
 }
@@ -49,4 +59,43 @@
 
 .whiteText {
   color: white;
+}
+
+.box1 {
+  width: 350px;
+  height: 500px;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.box2 {
+  width: 350px;
+  height: 280px;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.box3 {
+  width: 350px;
+  height: 280px;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.firstPic {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 20px;
+
 }

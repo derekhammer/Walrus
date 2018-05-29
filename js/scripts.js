@@ -8,25 +8,30 @@ $(document).ready(function() {
 
 
 $(document).ready(function(){
+  $(".fOut").click(function(){
+      $(".test").fadeIn();
+  })
     $(".fIn").click(function(){
         $(".test").fadeOut()
-    });
-    $(".fOut").click(function(){
-        $(".test").fadeIn();
-    });
+    });;
 });
 
 
 $(document).ready(function(){
+  $(".slideU").click(function(){
+      $(".test1").slideUp();
+  });
     $(".slideD").click(function(){
         $(".test1").slideDown()
-    });
-    $(".slideU").click(function(){
-        $(".test1").slideUp();
     });
 });
 
 $(document).ready(function() {
+  $(".white").click(function() {
+    $("body").removeClass();
+    $("body").removeClass();
+    $("body").addClass("white-background");
+  });
 
   $(".green").click(function() {
     $("body").removeClass();
