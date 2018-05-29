@@ -29,7 +29,6 @@ $(document).ready(function(){
 $(document).ready(function() {
   $(".white").click(function() {
     $("body").removeClass();
-    $("body").removeClass();
     $("body").addClass("white-background");
   });
 
