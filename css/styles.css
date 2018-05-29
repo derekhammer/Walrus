@@ -13,6 +13,14 @@ img:hover {
   border-radius: 500px;
 }
 
+
+.changeFont {
+  color: orange;
+}
+
+
+
+
 button {
   height: 40px;
   margin: auto;

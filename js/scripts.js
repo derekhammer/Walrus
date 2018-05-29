@@ -26,6 +26,18 @@ $(document).ready(function(){
     });
 });
 
+
+$(document).ready(function() {
+  $(".testF").click(function() {
+    $("p").removeClass(".testF");
+    $("p.testF").addClass("changeFont");
+
+  });
+  });
+
+
+
+
 $(document).ready(function() {
   $(".white").click(function() {
     $("body").removeClass();
